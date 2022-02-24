@@ -1,0 +1,118 @@
+@import "null.css";
+/* ================================================================================= */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+body {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    color: #424551;
+}
+
+.wrapper {
+    overflow: hidden;
+    min-height: 100%;
+}
+.conteiner {
+    max-width: 810px;
+    margin: 0 auto;
+}
+.h1 {
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    color: black;
+    margin-bottom: 30px;
+}
+.icon p {
+    display: inline-block;
+    padding: 0 0px 0 30px;
+    margin: 0 30px 30px 0;
+}
+.icon *:last-child {
+    margin-right: 0;
+}
+.icon-kalendar::before {
+    content: "";
+    min-height: 15px;
+    min-width: 15px;
+    display: inline-block;
+    background: url("../img/icon/Vector\ \(Stroke\).svg") 0 0 / auto no-repeat;
+    margin: 0 15px 0 -30px;
+}
+.icon-clock::before {
+    content: "";
+    min-height: 15px;
+    min-width: 15px;
+    display: inline-block;
+    background: url("../img/icon/clock.svg") 0 0 / auto no-repeat;
+    margin: 0 10px 0 -30px;
+}
+main p:last-child {
+    margin-bottom: 60px;
+}
+.share {
+    margin-bottom: 30px;
+}
+.share p {
+    display: inline-block;
+    font-weight: bold;
+    color: black;
+}
+.share img {
+    margin-left: 20px;
+}
+.picture {
+    display: inline-block;
+    margin-bottom: 30px;
+}
+main p {
+    margin-bottom: 30px;
+}
+.p {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 150%;
+    color: black;
+}
+.p1 {
+    padding-left: 58px;
+}
+.p1::before {
+    content: "";
+    display: inline-block;
+    width: 28px;
+    height: 20px;
+    background: url("../img/icon/braces.svg") 0 0 / auto no-repeat;
+    margin: 0 25px 0 -58px;
+}
+ul li {
+    margin-bottom: 6px;
+    padding: 0 0 0 88px;
+}
+ul li:last-child {
+    margin-bottom: 30px;
+}
+ul li::before {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: url("../img/icon/Vector.svg") 0 0 / auto no-repeat;
+    margin: 0 44px 0 -88px;
+}
+.tags p {
+    display: inline-block;
+}
+.tags-bolt {
+    font-weight: bold;
+    color: black;
+}
+.tags-border {
+    margin-left: 15px;
+    border: 1px solid #787a80;
+    border-radius: 4px;
+    padding: 3px 6px;
+}
